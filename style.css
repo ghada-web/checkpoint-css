@@ -1,0 +1,93 @@
+body{ max-width: 800px;
+    margin: auto;
+    color:grey;
+    border:grey solid;
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+.header-navbar{
+    display:flex;
+    justify-content:space-between;
+   
+    
+}
+.vertical { 
+    border-left: 4px solid crimson; 
+    height: 100px; 
+    display: inline-block;
+    } 
+.header-navbar h1{
+    color: crimson;
+    font-family: sans-serif;
+    padding: 20px 20px;
+
+}
+.header-nav{
+    margin: 20px;
+}
+a{
+    text-decoration:none;
+    color:crimson;
+}
+h2 {
+    color: sandybrown;
+    
+}
+.about-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:10px;
+   
+}
+
+
+.tableau{
+    border:crimson dashed;
+    border-radius: 10px;
+}
+.skills{color: sandybrown;
+}
+
+
+.video{
+    height:350px;
+    width: 350px;
+   border-radius: 30px/30px;}
+.work-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:10px;
+   
+}
+.listaudio{
+    display: flex;
+    margin: 40px;
+    border: crimson inset;
+}
+.resume{display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    margin:10px;
+   
+
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+   
+
+    align-items: center;
+    
+}
+.footeer{
+    display: flex;
+
+ flex-direction: column;
+    align-items: center;
+}
+.icons{
+    display: flex;
+}
